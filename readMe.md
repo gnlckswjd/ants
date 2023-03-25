@@ -108,3 +108,4 @@
 
 정휘찬
 - [회고록](https://velog.io/@oak_cassia/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-%EC%96%BB%EC%9D%80-%EA%B2%83)
+- [프로젝트에서 배운것](https://velog.io/@oak_cassia/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-%EB%B0%B0%EC%9A%B4-%EA%B2%83)
