@@ -1,4 +1,8 @@
 ## 소켓 기반 실시간 게임 서버
+### 시연 영상
+- ### [youtube](https://youtu.be/XUgKODM7gjE)
+
+ -------
 ### 사용 기술
 - Boost.asio
 - protobuf
