@@ -4,7 +4,7 @@
 
  -------
 ### 사용 기술
-- Boost.asio
+- Boost.asio 1.81.0
 - protobuf
 
 ### 폴더 구조
