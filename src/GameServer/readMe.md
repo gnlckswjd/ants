@@ -1,19 +1,21 @@
-## 소켓 기반 실시간 게임 서버
+> ants 팀 프로젝트에서 기여했던 것을
+> 구분하기 쉽게 따로 분리한 repository 입니다.😊
+[팀 프로젝트 repository](https://github.com/gnlckswjd/ants)
+
+> 가장 아래에 실행 시 필요한 단계와 폴더에 대한 설명이 있습니다.
+
+
+## 프로젝트 소개
+- 소켓 기반 실시간 게임 서버
+   - 2D 탑다운 슈팅 게임
 ### 시연 영상
 - ### [youtube](https://youtu.be/XUgKODM7gjE)
 
- -------
+
 ### 사용 기술
 - Boost.asio 1.81.0
 - protobuf
 
-### 폴더 구조
-
-- DummyClient: 테스트용 더미 클라이언트
-
-- gameServer: 게임 서버
-
-- NetworkCppHwichan: 유니티에서 사용할 수 있는 DLL, C++로 작성(팀원이 맡게 되면서 중단)
 
 
 
@@ -162,3 +164,22 @@
 ### 배운 것, 회고
 - [배운 것](https://velog.io/@oak_cassia/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-%EB%B0%B0%EC%9A%B4-%EA%B2%83)
 - [회고](https://velog.io/@oak_cassia/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-%EC%96%BB%EC%9D%80-%EA%B2%83)
+
+
+---
+
+### 실행 시 
+1. [zip파일](https://drive.google.com/file/d/1mKrFIATQ0MgtqN7QUGnAFNh9HtUL7Utg/view?usp=sharing) 압축 해제 하여 Project-GameServer/gameServer/ 다음과 같이  풀기
+![image](https://user-images.githubusercontent.com/52772732/230103597-2317e015-3cc7-4201-a22e-0ba2e9d10a55.png)
+2. boost 1.81.0 버전의 라이브러리 필요.
+  - 경로: C:\boost_1_81_0
+
+### 폴더 구조
+
+- gameServer/DummyClient: 테스트용 더미 클라이언트
+
+- gameServer/gameServer: 게임 서버
+
+- gameServer/NetworkCppHwichan: 유니티에서 사용할 수 있는 DLL, C++로 작성(팀원이 맡게 되면서 중단)
+
+
